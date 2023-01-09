@@ -32,14 +32,13 @@ form {
     background-color: rgba(0, 0, 0, 0.266);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 20px;
 }
-/* personl-info-wrapper {
-    margin: 5px;
-    padding: 5px;
-} */
+
 .personal-info {
     display: flex;
+    flex-direction: column;
     padding: 2px;
     margin: 3px;
     width: 80%;
@@ -52,12 +51,13 @@ label span {
 .personal-info:last-child {
     margin-bottom: 30px;
 }
-.selection-part {
-    margin: 20px auto;
-}
+
 select, option {
     background-color: grey;
 }
-select {
-    margin: 20px auto;
+
+.select-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }

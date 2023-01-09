@@ -16,14 +16,16 @@
                 <label for="name" id="email-label" class="personal-info"><span>Email: </span><input type="email" id="email" placeholder="Enter your valid email" required/></label>
                 <label for="number" id="number-label" class="personal-info"><span>Day of week: </span><input type="number" id="number" placeholder="Enter umber betwwen 5 and 13" max="13" min="5"></label>
             
-            <label for="dropdown" class = "selection-part">Select your current social status: </label>
-            <select id="dropdown">
-                <option value="">Click downward arrow on the rigth to select your status</option>
-                <option value="self_employed">Self employed</option>
-                <option value="employed">Employed</option>
-                <option value="student">Student</option>
-                <option value="unemployed">Unemployed</option>
-            </select >
+                <div class = select-div>
+                    <label for="dropdown" class = "selection-part">Select your current social status: </label>
+                   <select id="dropdown" class="option-list">
+                        <option value="">Click downward arrow on the rigth to select your status</option>
+                        <option value="self_employed">Self employed</option>
+                        <option value="employed">Employed</option>
+                        <option value="student">Student</option>
+                        <option value="unemployed">Unemployed</option>
+                    </select >
+                </div>
             <label for="selection1" class="selection1"> <input type="radio" name="selection1" value="radio1"/>This is the first radio</label>
             
             <label for="selection2"><input type="radio" name="selection1" value="radio2"> This is the first radio</label>
@@ -39,8 +41,8 @@
             <button id="submit" type="submit">CLICK HERE TO SUBMIT YOUR INFORMATION</button>
         </form>
         <footer>
-            <a href="https://github.com/Celestin4"><i class="fa fa-github"></i> Github</a>
-            <a href="https://www.linkedin.com/in/nteziryayo-celestin-49661b1b8/overlay/contact-info/"><i class='fa fa-linkedin'></i> Linkdin</a>
+            <a href="https://github.com/Celestin4" target="_blank"><i class="fa fa-github"></i> Github</a>
+            <a href="https://www.linkedin.com/in/nteziryayo-celestin-49661b1b8/" target="_blank"><i class='fa fa-linkedin'></i> Linkdin</a>
         </footer>
     </body>
 </html>
