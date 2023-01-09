@@ -1,80 +1,40 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
     <head>
-        <title></title>
-        <link rel="stylesheet" href="styles.css">
+        <title>THE SUNSHINE SURVEY FORM</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <main id="main-doc">
-            <section class="main-section" id="SECTION_1">
-                <header>SECTION 1</header>
-                <p></p>
-                <p></p>
-                <p></p>
-                <code></code>
-                <code></code>
-                <code></code>
-                <li></li>
-                <li></li>
-                <li></li>
-                
-            </section>
-            <section class="main-section"  id="SECTION_2">
-                <header>SECTION 2</header>
-                <p></p>
-                <p></p>
-                <p></p>
-                <code></code>
-                <code></code>
-                <code></code>
-                <li></li>
-                <li></li>
-                <li></li>
-            </section>
-            <section class="main-section" id="SECTION_3">
-                <header>SECTION 3</header>
-                <p></p>
-                <p></p>
-                <p></p>
-                <code></code>
-                <code></code>
-                <code></code>
-                <li></li>
-                <li></li>
-                <li></li>
-            </section>
-            <section class="main-section" id="SECTION_4">
-                <header>SECTION 4</header>
-                <p></p>
-                <p></p>
-                <p></p>
-                <code></code>
-                <code></code>
-                <code></code>
-                <li></li>
-                <li></li>
-                <li></li>
-            </section>
-            <section class="main-section" id="SECTION_5">
-                <header>SECTION 5</header>
-                <p></p>
-                <p></p>
-                <p></p>
-                <code></code>
-                <code></code>
-                <code></code>
-                <li></li>
-                <li></li>
-                <li></li>
-            </section>]
-            <nav id="navbar">
-                <header>HOME</header>
-                <a href="#SECTION_51" class="nav-link">SECTION 1</a>
-                <a href="#SECTION_2" class="nav-link">SECTION 2</a>
-                <a href="#SECTION_3" class="nav-link">SECTION 3</a>
-                <a href="#SECTION_4" class="nav-link">SECTION 4</a>
-                <a href="#SECTION_5" class="nav-link">SECTION 5</a>
-            </nav>
-        </main>
+        <h1 id="title">THE SUNSHINE SURVEY FORM</h1>
+        <p id="description">This survey for is intended with collecting information 
+            about our customers and the even those who want to be part of sunshine community
+        </p>
+        <form action="" id="survey-form">
+            <label for="name" id="name-label">Enter your full name: <input type="text" id="name" placeholder="Enter your full name" required/></label>
+            <label for="name" id="email-label">Enter your valid email: <input type="email" id="email" placeholder="Enter your valid email" required/></label>
+            <label for="number" id="number-label">Enter the number coresponding to day you conduct survey-form: <input type="number" id="number" placeholder="Enter umber betwwen 5 and 13" max="13" min="5"></label>
+            
+            <label for="dropdown">Select your current social status: </label>
+            <select id="dropdown">
+                <option value="">Click downward arrow on the rigth to select your status</option>
+                <option value="self_employed">Self employed</option>
+                <option value="employed">Employed</option>
+                <option value="student">Student</option>
+                <option value="unemployed">Unemployed</option>
+            </select >
+            <label for="selection1" class="selection1"> <input type="radio" name="selection1" value="radio1"/>This is the first radio</label>
+            <input type="radio" name="selection1" value="radio1">
+            <label for="selection2">This is the first radio</label>
+            <input type="radio" name="selection1" value="radio2">
+            <label for="selection1">This is the first radio</label>
+            <input type="radio" name="selection2" value="radio3">
+            <label for="selection4">This is the first radio</label>
+            <input type="radio" name="selection2" value="radio4">
+            <input type="checkbox" value="selection1">
+            <input type="checkbox" value="selection2">
+            <input type="checkbox" value="selection3">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button id="submit" type="submit">CLICK HERE TO SUBMIT YOUR INFORMATION</button>
+        </form>
     </body>
 </html>
