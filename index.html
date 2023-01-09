@@ -3,6 +3,7 @@
     <head>
         <title>THE SUNSHINE SURVEY FORM</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <h1 id="title">THE SUNSHINE SURVEY FORM</h1>
@@ -10,9 +11,9 @@
             about our customers and the even those who want to be part of sunshine community
         </p>
         <form action="" id="survey-form">
-            <label for="name" id="name-label">Enter your full name: <input type="text" id="name" placeholder="Enter your full name" required/></label>
-            <label for="name" id="email-label">Enter your valid email: <input type="email" id="email" placeholder="Enter your valid email" required/></label>
-            <label for="number" id="number-label">Enter the number coresponding to day you conduct survey-form: <input type="number" id="number" placeholder="Enter umber betwwen 5 and 13" max="13" min="5"></label>
+            <label for="name" id="name-label"><span>Full name: </span><input type="text" id="name" placeholder="Enter your full name" required/></label>
+            <label for="name" id="email-label"><span>Email: </span><input type="email" id="email" placeholder="Enter your valid email" required/></label>
+            <label for="number" id="number-label"><span>Day of week: </span><input type="number" id="number" placeholder="Enter umber betwwen 5 and 13" max="13" min="5"></label>
             
             <label for="dropdown">Select your current social status: </label>
             <select id="dropdown">
@@ -23,11 +24,11 @@
                 <option value="unemployed">Unemployed</option>
             </select >
             <label for="selection1" class="selection1"> <input type="radio" name="selection1" value="radio1"/>This is the first radio</label>
-            <input type="radio" name="selection1" value="radio1">
-            <label for="selection2">This is the first radio</label>
-            <input type="radio" name="selection1" value="radio2">
-            <label for="selection1">This is the first radio</label>
-            <input type="radio" name="selection2" value="radio3">
+            
+            <label for="selection2"><input type="radio" name="selection1" value="radio2"> This is the first radio</label>
+            
+            <label for="selection1"><input type="radio" name="selection2" value="radio3"> This is the first radio</label>
+            
             <label for="selection4">This is the first radio</label>
             <input type="radio" name="selection2" value="radio4">
             <input type="checkbox" value="selection1">
@@ -36,5 +37,9 @@
             <textarea name="" id="" cols="30" rows="10"></textarea>
             <button id="submit" type="submit">CLICK HERE TO SUBMIT YOUR INFORMATION</button>
         </form>
+        <footer>
+            <a href="https://github.com/Celestin4"><i class="fa fa-github"></i> Github</a>
+            <a href="https://www.linkedin.com/in/nteziryayo-celestin-49661b1b8/overlay/contact-info/"><i class='fa fa-linkedin'></i> Linkdin</a>
+        </footer>
     </body>
 </html>
