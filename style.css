@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blue;
+    margin: 0;
+}
+form {
+    background-color: rgb(127, 255, 138);
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    width: 40%;
+    margin: 20px auto;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: gold;
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    
+}
+p {
+    text-align: center;
+}
+label {
+    display: block;
+    padding: 20px 0;
+}
+label {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+button {
+    background-color: rgb(196, 238, 143);
+}
+button[type=submit]:hover {
+    background-color: rgb(0, 13, 255);
+}
+select {
+    margin: 20PX 0;
+    width: 100%;
+}
+.selection1 {
+    display: inline;
+    margin: 0 0.5em 0 0;
+    width: unset;
+}
