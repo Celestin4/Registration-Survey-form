@@ -11,12 +11,16 @@
             about our customers and the even those who want to be part of sunshine community
         </p>
         <form action="" id="survey-form">
-           
-                <label for="name" id="name-label" class="personal-info"><span>Full name: </span><input type="text" id="name" placeholder="Enter your full name" required/></label>
-                <label for="name" id="email-label" class="personal-info"><span>Email: </span><input type="email" id="email" placeholder="Enter your valid email" required/></label>
-                <label for="number" id="number-label" class="personal-info"><span>Day of week: </span><input type="number" id="number" placeholder="Enter umber betwwen 5 and 13" max="13" min="5"></label>
+                <section>
+                <label for="name" id="name-label" class="personal-info">Full name: </label>
+                <input type="text" id="name" placeholder="Enter your full name" required/>
+                <label for="name" id="email-label" class="personal-info">Email: </label>
+                <input type="email" id="email" placeholder="Enter your valid email" required/>
+                <label for="number" id="number-label" class="personal-info">Day of week: </label>
+                <input type="number" id="number" placeholder="Enter umber betwwen 5 and 13" max="13" min="5">
+                </section>
             
-                <div class = select-div>
+                <section class = select-div>
                     <label for="dropdown" class = "selection-part">Select your current social status: </label>
                    <select id="dropdown" class="option-list">
                         <option value="">Click downward arrow on the rigth to select your status</option>
@@ -25,20 +29,37 @@
                         <option value="student">Student</option>
                         <option value="unemployed">Unemployed</option>
                     </select >
-                </div>
-            <label for="selection1" class="selection1"> <input type="radio" name="selection1" value="radio1"/>This is the first radio</label>
+                </section>
+                <h3>What can you appreciate within this survey</h3>
+                <section class = 'appreciation'>
+                    
+                    <label for="selection1" class="selection1"> <input type="radio" name="selection1" value="radio1"/>This is the first radio</label>
             
-            <label for="selection2"><input type="radio" name="selection1" value="radio2"> This is the first radio</label>
+                    <label for="selection2"><input type="radio" name="selection1" value="radio2"> This is the first radio</label>
             
-            <label for="selection1"><input type="radio" name="selection2" value="radio3"> This is the first radio</label>
-            
-            <label for="selection4">This is the first radio</label>
-            <input type="radio" name="selection2" value="radio4">
-            <input type="checkbox" value="selection1">
-            <input type="checkbox" value="selection2">
-            <input type="checkbox" value="selection3">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button id="submit" type="submit">CLICK HERE TO SUBMIT YOUR INFORMATION</button>
+                    <label for="selection1"><input type="radio" name="selection2" value="radio3"> This is the first radio</label>
+                </section>
+                <h3>What improvements you can recommend</h3>
+                <section>
+                    <div>
+                        <input type="checkbox" name="box1" value="selection1">
+                        <label for="box1">I have abused within this survey</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="box2" value="selection2">
+                        <label for="box2">I have forced to provide information</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="box3" value="selection3">
+                        <label for="box3">I have give corruption to lie</label>
+                    </div>
+
+                 </section>
+                 <h3>Any comments or suggestions</h3>
+            <textarea name="" id=""rows="4"></textarea>
+            <button id="submit" type="submit">SUBMIT</button>
         </form>
         <footer>
             <a href="https://github.com/Celestin4" target="_blank"><i class="fa fa-github"></i> Github</a>

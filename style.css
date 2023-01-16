@@ -56,8 +56,35 @@ select, option {
     background-color: grey;
 }
 
-.select-div {
+select {
+    margin-top: 15px;
+}
+
+#submit {
+    margin: 30px auto 0;
+}
+.check-box-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+}
+.check-box-section label {
+    margin-left: 5px;
+}
+h3 {
+    margin: 30px 0 10px;
+}
+.appreciation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.appreciation label {
+    display: block;
+    /* flex-direction: column; */
+}
+textarea, select {
+    width: 100%;
+    background-color: rgb(128, 128, 128, 0.8);
+}
+textarea {
+    font-size: 1.5rem;
 }
